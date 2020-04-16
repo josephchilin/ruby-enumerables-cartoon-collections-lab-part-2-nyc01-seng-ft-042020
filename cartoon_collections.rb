@@ -11,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the 
   planeteer_calls.map do |element|
     capitalize_call = element.capitalize
-    puts "#{capitalize_call}!"
+    capitalize_call
   end
 end
 
